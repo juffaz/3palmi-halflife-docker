@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  hlds:
+    build: .
+    container_name: 3palmi-hlds
+    ports:
+      - "27015:27015/udp"
+      - "27015:27015"
+      - "26900:26900/udp"
+    restart: unless-stopped
+    command: >
+      +log on
+      +hostname "3Palmi Half-Life"
+      +rcon_password changeme
+      +maxplayers 16
+      +map gas_workz
