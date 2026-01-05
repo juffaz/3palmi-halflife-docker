@@ -1,5 +1,3 @@
----
-
 ## ✅ **Updated README.md with Run Instructions**
 
 ````markdown
@@ -223,12 +221,6 @@ It only provides a Dockerized wrapper around the original HLDS.
 ```
 
 ---
-
-## 💡 Хочешь — можем добавить:
-
-👉 раздел “How to add your own map”  
-👉 пример с AMX Mod X как отдельный образ  
-👉 GitHub Actions для автосборки Docker-образа
 
 Скажи — дополним 👍
 ```
