@@ -9,7 +9,7 @@ COPY maps/ /temp/mods/valve/maps/
 # Optional mapcycle
 COPY mapcycle.txt /temp/mods/valve/mapcycle.txt
 
-WORKDIR /home/steam
+# Не трогаем WORKDIR — пусть остаётся из базового образа
 
 EXPOSE 27015/udp 27015/tcp 26900/udp
 
